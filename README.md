@@ -49,7 +49,7 @@
         ]
     }
 
-##  1.2 Set up an EC2 Instance Steps:
+#  1.2 Set up an EC2 Instance Steps:
 
 1. Go to AWS Console > EC2 > Launch instance.
 
@@ -86,7 +86,7 @@
 
 
 
-## 1.3 Modify the EC2 Security Group Rules
+# 1.3 Modify the EC2 Security Group Rules
 
 1. Go to EC2 Console → Instances → select your EC2 instance.
 
@@ -107,7 +107,7 @@
     - Source: My IP(Example: 132.20.32.11)
 
 
-## 1.4 AWS Lambda Function (Python)
+# 1.4 AWS Lambda Function (Python)
 
     
     ```python
@@ -127,7 +127,7 @@
     
 
 
-###### Task 2: Scripting 
+## Task 2: Scripting 
 
 # (2.5) Python Scripts
 
@@ -191,7 +191,7 @@
     - `https://docs.aws.amazon.com/lambda/latest/dg/python-handler.html`
 
 
-##### Task 3: CI/CD Basics
+## Task 3: CI/CD Basics
 
 1. Step 1: Install Jenkins
     To install Jenkins, you can either use an EC2 instance on AWS or install it on your local machine.
@@ -296,7 +296,7 @@
         }
     }
 
- ###### Task 4 : Infrastructure as Code (IaC) with Terraform
+## Task 4 : Infrastructure as Code (IaC) with Terraform
 
 # (4.9) Terraform Script
 
